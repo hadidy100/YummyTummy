@@ -9,7 +9,7 @@ One table has the images as a blob data type, where php will interact with this 
 
 The description table, contains text of 120 characters to describe what the image is all about. 
 
-Modification to the tables columns are welcom and possible! 
+Modification to the tables columns are welcom and possible!! 
 
 More to come! 
 Anas
