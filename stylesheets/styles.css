@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6em;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+}
+
+header {
+  background: #333;
+  min-height: 55px;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+logo {
+  float: left;
+  width: 30%;
+  margin-top: 15px;
+}
+
+nav{
+  float: right;
+  width: 70%;
+
+}
