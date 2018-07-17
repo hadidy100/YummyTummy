@@ -1,0 +1,209 @@
+ The following are samples that I got from a food blog website(donot remmember the name, this is just for reference) 
+
+
+how do i get the recipes?
+how do i share my favorites page with my friends?
+can anyone submit pictures?
+what are your submission rules?
+what are your criteria for accepting submissions?
+my submissions never appear on the site, why?
+why did my photo get declined even after i fixed your feedback reason?
+can you provide more specific feedback on how to get photos accepted?
+why did i get declined and then later see my submission published?
+why do you decline my photos while other sites accept them?
+how long does it take for submissions to appear on the site?
+how will i know if my submission is accepted or declined?
+will you review and select other pictures from my submitted post?
+can i submit multiple pictures from the same post?
+do i have to submit a 550 pixels by 550 pixels image?
+can i submit pictures smaller than 550 pixels by 550 pixels?
+are pictures from non-blog sites accepted, such as flickr?
+do you have any tips to improve my food photography and styling skills?
+why do you limit the submission title to 35 characters?
+can i get an rss feed for a category page?
+i'm moving my blog to a new domain and my permalinks have changed, can you change my links on foodgawker?
+should i tag my submissions?
+why do my images lose color or appear less saturated when i submit?
+how do i get a site badge to show off my gallery?
+how do i change my password or email address?
+how do i change my username?
+why do i get an error message when i preview or submit?
+how do i get published? is there a secret club i need to join?
+do you accept round up posts?
+how do i advertise on this site?
+how do i get the recipes?
+
+click on a photo and you will be taken to the submitter's blog post, where you'll most likely find a recipe.
+
+how do i share my favorites page with my friends?
+
+to share your favorites, go to your favorites page and click on the "share with friends" link above the filter by category box. once your favorites page is public, your friends can see your favorited posts. you can also share any favorites page, tag page, category or search result page. it's a great way to share and meal plan with your friends and family.
+
+can anyone submit pictures?
+
+yes, anyone with a blog or publishing original content is able to submit.
+
+what are your submission rules?
+
+attribution is mandatory! do not steal other site's pictures!
+do not violate anyone's copyrights! any post with violations will be removed immediately. let us know if your photo was mistakenly posted.
+original photography and content including a recipe is required, i.e. no re-blogging or roundups.
+for non-english blog posts, add the language of your blog post at the end of the description, e.g. (in polish).
+registration is required to submit posts.
+submit beautifully composed, properly exposed food photos.
+photos are automatically resized and cropped to 550 px by 550 px.
+we reserve the right to remove posts at any time.
+submissions are moderated.
+what are your criteria for accepting submissions?
+
+please review before submitting to the site: to help bloggers get a better understanding of our evaluation process and the criteria to get accepted, the editorial team created this gawkerverse submission guide.
+
+we review each picture to make sure they meet the following criteria...
+
+- appealing food
+
+- good lighting/exposure/white balance
+
+- good presentation/composition
+
+- good sharpness even after the image is reduced in size
+
+my submissions never appear on the site, why?
+
+we try to select the highest quality images to appear on the site. we also limit the number of submissions we publish each morning/evening to provide similar traffic levels to all submissions, so only the best images will be published. the top reasons why images don't appear on the site are...
+
+photo lighting issues - overexposure or underexposure
+composition - the image had an odd camera angle or distracting foreground/background
+focus - photo isn't sharp enough when reduced to 550x550 pixels
+white balance - the image appears blue, purple, green etc.
+image not found - the submitted image or cropped version of that image doesn't appear in your blog post
+if your submission is declined, you will receive feedback with the primary reason why we didn't accept your photo.
+
+why did my photo get declined even after i fixed your feedback reason?
+
+we provide the primary reason why a submission is declined. sometimes when you fix/adjust a photo and resubmit, our editors will accept it. other times, there are multiple issues with a photo and while you fixed one, our editors may decline it for another reason. additionally, if you resubmit an image, a different editor will most likely review your photo and might have a slightly different opinion on it.
+
+can you provide more specific feedback on how to get photos accepted?
+
+while we would love to respond to every inquiry with more specific ways to improve your photos, we don't have the resources to provide an in-depth review of your photos. keep in mind that while we have quality guidelines for our editors, the photo selection process is still a subjective one and we will never agree 100% of the time on accepted or declined photos.
+
+we encourage you to keep on submitting and review the photography tips in the faq below.
+
+why did i get declined and then later see my submission published?
+
+as part of the process to maintain the quality of the site and remain as consistent as possible in our selection process, we conduct internal reviews of submissions with our editors. if we feel an editor made a wrong decision, we will publish a submission that may have been declined.
+
+why do you decline my photos while other sites accept them?
+
+we are an independent site with our own quality standards and our own editors. the photo selection process will always be a subjective one even with our guidelines. we are not influenced by other sites nor do we look at what anyone else is publishing. we stand by our selection and review processes.
+
+how long does it take for submissions to appear on the site?
+
+moderation can take up to 12 hours, but we typically review your submissions much faster. it still may take up to 12 - 24 hours to appear on the site as we like to schedule our postings and allow your pictures to appear on the first page as long as possible.
+
+how will i know if my submission is accepted or declined?
+
+if you would like to receive an email that will inform you whether your submission is accepted or declined, check the opt-in box on the my profile page.
+
+each new submission will appear on the my submissions page under "pending review". if a submission is declined, it will appear under "declined" with feedback and/or a reason why it was not accepted. you might also see requests from the editors in the feedback column.
+
+will you review and select other pictures from my submitted post?
+
+no. we only review what you submit to us and we will not select another picture from your post, even if we think it's a better picture.
+
+can i submit multiple pictures from the same post?
+
+we encourage you to select the best image from your post and submit only one. if your submission is not accepted and you feel another picture within that post is worthy of consideration, feel free to try again. but please don't submit multiple pictures of the same post within minutes of each other. let the moderation process happen before you upload another image from the original post/submission.
+
+do i have to submit a 550 pixels by 550 pixels image?
+
+no, you do not have to submit a 550x550 pixel image. the image can be larger, but we will crop the picture down to size. we recommend you re-size and crop the pictures yourself to have complete control of the composition. otherwise, our image cropper will crop to the middle 550x550 pixels of the image.
+
+can i submit pictures smaller than 550 pixels by 550 pixels?
+
+no, the height and the width of your photo must be at least 550 pixels.
+
+are pictures from non-blog sites accepted, such as flickr?
+
+at this time, we generally accept only pictures from blogs. we may accept images from other non-blog websites if we have permission from that site, but we tend to avoid it. regarding flickr, if it's just an image then we won't accept it. however, if it is accompanied by more content or a recipe, we will consider it.
+
+do you have any tips to improve my food photography and styling skills?
+
+here are some sites that provide great advice...
+
+cropping & orientation - taylor takes a taste
+principles of photography – exposure - white on rice couple
+principles of photography – shutter speed - white on rice couple
+principles of photography – aperture (controlling depth of field) - white on rice couple
+principles of photography – iso - white on rice couple
+principles of photography – white balance - white on rice couple
+photography howto - junglefrog cooking - composition and angle
+ten things i’ve learned about food photography - photography and photoshop tips
+food styling and photography at blogher conference - la tartine gourmande
+photography on simply recipes - more great links at the bottom of the post
+photography tips - use real butter keeping it real
+still life with... - great blog with "little nuggets from the front lines of food styling and photography"
+food photography - an introduction - digital photography school
+why do you limit the submission title to 35 characters?
+
+the title appears when you roll over the picture, in our rss feed and widget (found on the about and updates pages). we intentionally keep it short so it displays nicely in rss readers and our widget. for the title, just tell us what it is without any adjectives. use the description to "sell" your posts with as many adjectives as you would like. we will occasionally edit the title if you don't enter what the dish is.
+
+can i get an rss feed for a category page?
+
+yes! just add /feed/ to the end of the url for that category page. for example...
+
+http://foodgawker.com/post/category/vegan/feed/
+
+i'm moving my blog to a new domain and my permalinks have changed, can you change my links on foodgawker?
+
+yes, we can change them for you. however, we highly recommend you redirect your old domain and permalinks to your new domain. if you don't, you'll obviously get an error page and more importantly you'll lose all of your seo rankings and link juice from search engines and other sites linking to your old domain.
+
+if you are moving from blogger to a self-hosted wordpress (wordpress.org) environment, check out...
+
+moving from blogger to wordpress - maintaining permalinks, traffic & seo
+
+if you're moving from wordpress.com to a self-hosted wordpress installation, take a look at the pdf on this page...
+
+moving from wordpress.com to wordpress.org
+
+now, if you can't figure out how to redirect your permalinks, we will change your links on foodgawker, but keep in mind it's a manual process and may take some time as we get many requests of this kind.
+
+should i tag my submissions?
+
+tagging your submissions is optional, but we highly recommend it. tagging your submissions is a great way to get keywords in your post and allow your submissions to be returned in search results more often.
+
+why do my images lose color or appear less saturated when i submit?
+
+depending on your computer display, you may see some color loss and less color saturation when you submit your images. the issue is the color profile of the images. we know for certain that images with a color profile using adobe rgb (1998) lose their color when submitted. there maybe other color profiles that are affected too. if you see this issue with your photos, we recommend using an srgb color profile/working space in your image editing software.
+
+how do i get a site badge to show off my gallery?
+
+get a badge here.
+
+how do i change my password or email address?
+
+click on your username in the upper right hand corner and you'll be able to change your password or email address on your profile page.
+
+how do i change my username?
+
+you can change your username yourself on the my profile page.
+
+why do i get an error message when i preview or submit?
+
+if you are submitting a 550x550 pixel image or larger, the file size is under 500 kb and you get an error message, please clear your browser cache, clear any foodgawker browser cookies and try again. if that doesn't work, please try a different browser, firefox, safari, chrome, interet explorer, etc.
+
+how do i get published? is there a secret club i need to join?
+
+contrary to blogosphere, twitter, facebook and even meatspace rumors, there isn't a secret club to join to get published on foodgawker. we do not keep a "good" or "bad" list of submitters or usernames! so changing your username or submitting under a different username, will not positively or negatively impact your chances of being accepted.
+
+the editors reviewing your submissions are professionally trained photographers, who love food, but are not food bloggers to prevent any conflict of interests (i.e. selecting submissions from friends or acquaintances). their only bias is towards images that meet our quality standards for lighting, composition, clarity and deliciousness.
+
+so, we don't care if you've been blogging for 1 week or 5 years. we don't care if it's your 1st or 531st submission. we don't care if it's another cookie picture. just take a good photo and we'll accept it. but keep in mind that even with set quality standards, image selection will always be a subjective decision, because we are not robots.
+
+do you accept round up posts?
+
+we will not accept a round up post unless an original photo is submitted and also appears in your blog post.
+
+how do i advertise on this site?
+
+if you want to advertise on foodgawker, please visit our self-service page on buyads.com.
