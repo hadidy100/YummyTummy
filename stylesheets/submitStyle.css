@@ -18,6 +18,7 @@ a {
   width: 100%;
 
 }
+
 .parent{
   align-items: center;
   display: flex;
@@ -52,6 +53,14 @@ a {
 .fileToUpload{
   border: 1px solid gray;
   width:100%;
+}
+
+.test{
+  margin:auto;
+  padding: 10px;
+  text-align:center;
+  width:50%;
+
 }
 
 header {
