@@ -1,3 +1,18 @@
+<?php
+
+//start session
+session_start();
+
+//prevent users that have not logged in from accessing
+//imageupload.php file to upload images, only logged in users can do so.
+if(!isset($_SESSION['login']))
+{
+  echo "<script> window.location.assign('login.php'); </script>";
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -18,6 +33,7 @@
       <h1>Upload Image</h1>
     </div>
     <div class="parent">
+      <div>
       <form  method="post" enctype="multipart/form-data">
         <h3 class="imageDetails">Select image to upload</h3>
         <input class="fileToUpload" type="file" name="fileToUpload" id="fileToUpload" required/>
@@ -29,6 +45,13 @@
         <input class="btn-lg" type="submit" value="Upload Image" name="submit" />
       </form>
     </div>
+    </div>
+
+
+    <div style="padding:50px 0 50px 0; margin: auto; width: 100%; text-align: center; display:inline-block; border:1px solid black;">
+
+
+
     <?php
 
     //check if form has been submmited
@@ -48,12 +71,9 @@
         exit;
       }
       else {
-
-        //echo 'connection to database successful.....<br>';
-
         //limit the image size data to 15mb
-        if ($_FILES["fileToUpload"]["size"] > 15000000){
-          echo "Sorry, your file is too large.<br>";
+        if ($_FILES["fileToUpload"]["size"] > 500000){
+          echo "<h3><p style='align-items:center;display:flex; justify-content:center;'>Sorry, your file is too large.</p></h3>";
         }
         else {
           //upload the image to database, use prepared statement to prevent sql injection attacks
@@ -84,7 +104,7 @@
           //if row returns greater than 0, our query was successful
           if($row > 0)
           {
-            echo '<div class="test"><img src="data:image/jpeg;base64,'.$img.'"/></div>';
+            echo '<img src="data:image/jpeg;base64,'.$img.'"/>';
             //echo '<br>'.$id;
             //echo '<br>'.$desc;
 
@@ -107,6 +127,14 @@
 
     }
     ?>
+  </div>
+
+
+
+
+
+
+
 
   </section>
   <footer>
