@@ -7,6 +7,13 @@ body {
   padding: 0;
 }
 
+#mainLogo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 a {
   color: #666;
   text-decoration: none;
@@ -64,14 +71,81 @@ header a {
   color: #fff;
 }
 
-logo {
+.logo {
   float: left;
   margin-top: 15px;
   width: 30%;
+    color: #ffa500;
 }
 
 nav{
   float: right;
   width: 70%;
-
 }
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+nav li.current a, nav a:hover {
+  color: #03899C;
+  border-bottom: #03899C 3px solid;
+}
+
+section {
+    padding: 20px 0;
+    overflow: hidden
+}
+
+.tagline {
+    background: #03899C;
+    color: #fff;
+}
+
+.tagline h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#gallary {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#gallary li {
+    display: block;
+    float: left;
+    width: 23%;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 12px 7px 0;
+    position: relative;
+}
+
+#gallary img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #03899c;
+    height: 55px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+
