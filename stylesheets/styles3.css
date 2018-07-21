@@ -1,3 +1,5 @@
+
+
 body {
   color: #666;
   font-family: sans-serif;
@@ -35,13 +37,13 @@ a {
 }
 .parent{
   align-items: center;
-  display: flex;
+  //display: flex;
   justify-content: center;
 
 }
 
 .title{
-  display:flex;
+  //display:flex;
   justify-content: center;
 
 }
@@ -136,7 +138,7 @@ section {
  
 
 //####################
-
+ 
 @font-face {
   font-family: 'airstreamregular';
   font-style: normal;
@@ -156,21 +158,21 @@ section {
 html, body {
   height: 100%;
 }
-/*
+ 
 body {
   background: rgba(149, 194, 215);
   background: rgb(149, 194, 215);
-  display: flex;
-  flex-direction: column;
+   display: flex;
+   flex-direction: column;
   font-size: 10px;
 }
-*/
+ 
 a {
   text-decoration: none;
 }
 
 .main-header {
-  flex: 0 1 auto;
+ flex: 0 1 auto;
 }
 
 .logo-text {
@@ -182,28 +184,28 @@ a {
 }
 
 .main-content {
-  display: flex;
-  flex: 1 1 auto;
+   display: flex;
+    flex: 1 1 auto;
   flex-direction: column;
 }
-
+ 
 #thumbnail-item {
   border: 1px solid rgb(100%, 100%, 100%);
   border: 1px solid rgba(100%, 100%, 100%, 0.8);
   display: inline-block;
-  max-width: 120px;
-  min-width: 120px;
+  max-width: 80px;
+  min-width: 80px;
   transition: transform 133ms ease-in-out;
 }
-
+ 
 #thumbnail-item:hover {
   transform: scale(1.2);
   transition: transform 1000ms ease-in;
 }
 
 .thumbnail-list {
-  display: flex;
-  flex: 0 1 auto;
+   display: flex;
+   flex: 0 1 auto;
   justify-content: space-between;
   list-style: none;
   order: 2;
@@ -219,35 +221,38 @@ a {
 
 .thumbnail-title {
   background: rgb(96, 125, 139);
-  color: rgb(202, 238, 255);
+  color: rgb(302, 238, 255);
   display: block;
   font-family: airstreamregular;
-  font-size: 18px;
-  margin: 0;
+  font-size: 30px;
+  margin: 50;
   padding: 4px 10px;
 }
-
+.Avatarthumbnail-title {
+  background: rgb(96, 125, 139);
+  color: rgb(402, 338, 155);
+  display: block;
+  font-family: airstreamregular;
+  font-size: 30px;
+  margin: 90;
+  padding: 4px 10px;
+}
 .is-tiny {
   transform: scale(0.001);
   transition: transform 0ms;
 }
 
-.detail-image {
-  width: 90%;
-}
-
  
-
 @media all and (min-width: 768px) {
   .main-content {
-    flex-direction: row;
+   flex-direction: row;
     overflow: hidden;
   }
 }
 
 .thumbnail-list {
-  flex-direction: column;
-  margin-left: 20px;
+   flex-direction: column;
+  margin-left: 400px;
   order: 0;
   padding: 0 35px;
 }
@@ -267,7 +272,7 @@ a {
   transition: transform 1000ms ease-in;
 }
 
- 
+
  
 
 #gallary{
@@ -275,7 +280,6 @@ a {
     margin-top:90px;
     margin-left: auto; 
     margin-right: auto;
-
      text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
@@ -298,4 +302,10 @@ a {
     display: inline-block;
     font-size: 0;
     line-height: 0
+}
+p {
+    text-indent: 100px;
+    text-align: justify;
+    letter-spacing: 3px;
+	font-size: 18px;
 }
