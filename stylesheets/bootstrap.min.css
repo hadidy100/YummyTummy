@@ -77,8 +77,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
+  /*margin-top: 0;*/
   margin-bottom: 1rem
+  color: #212529;
+
 }
 
 abbr[data-original-title], abbr[title] {
@@ -356,6 +358,10 @@ template {
 .lead {
   font-size: 1.25rem;
   font-weight: 300
+}
+.answer{
+  color: var(--gray-dark);
+  font-weight: bolder;
 }
 
 .display-1 {
