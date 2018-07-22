@@ -1261,8 +1261,6 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-
-
   }
 
 
@@ -5598,8 +5596,6 @@ button.close {
 .yummy-inner {
   position:relative;
   width: 100%;
-  background-size: cover;
-  overflow: hidden
 }
 
 .yummy-item {
@@ -5977,7 +5973,9 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .rounded-circle {
-  border-radius: 50% !important
+  object-fit: cover !important;
+  border-radius: 50% !important;
+
 }
 
 .rounded-0 {
