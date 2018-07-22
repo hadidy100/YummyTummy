@@ -41,7 +41,10 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent
 }
-
+.transbox{
+  background-color: rgba(100,100,100,0.4);
+  padding: 20px;
+}
 @-ms-viewport {
   width: device-width
 }
