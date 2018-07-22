@@ -41,7 +41,10 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent
 }
-
+.transbox{
+  background-color: rgba(100,100,100,0.4);
+  padding: 20px;
+}
 @-ms-viewport {
   width: device-width
 }
@@ -77,8 +80,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
+  /*margin-top: 0;*/
   margin-bottom: 1rem
+  color: #212529;
+
 }
 
 abbr[data-original-title], abbr[title] {
@@ -356,6 +361,10 @@ template {
 .lead {
   font-size: 1.25rem;
   font-weight: 300
+}
+.answer{
+  color: var(--gray-dark);
+  font-weight: bolder;
 }
 
 .display-1 {
@@ -1255,8 +1264,6 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-
-
   }
 
 
@@ -3733,6 +3740,7 @@ tbody.collapse.show {
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   margin-right: 1rem;
+  margin-left: 0.5rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap
@@ -5592,8 +5600,6 @@ button.close {
 .yummy-inner {
   position:relative;
   width: 100%;
-  background-size: cover;
-  overflow: hidden
 }
 
 .yummy-item {
@@ -5971,7 +5977,9 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .rounded-circle {
-  border-radius: 50% !important
+  object-fit: cover !important;
+  border-radius: 50% !important;
+
 }
 
 .rounded-0 {
