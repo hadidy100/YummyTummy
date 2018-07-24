@@ -1,0 +1,8 @@
+sites index: The following is what I envision for the tabs on our project
+ About Us
+ Team Members
+ FAQS
+ Recipes
+ Home
+    pictures and blogs
+    links to recipes
