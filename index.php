@@ -1,3 +1,18 @@
+<?php
+
+//start session
+session_start();
+
+//if the user has already logged in and hits back
+//or navigates to login.php again, redirect him to home page
+// if(isset($_SESSION['login']))
+// {
+//   echo "logged in";
+//   echo "<script> window.location.assign('index.php'); </script>";
+// }
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,6 +28,8 @@
 
     <!-- Custom styles for this template -->
     <link href="stylesheets/yummy.css" rel="stylesheet">
+    <link href="stylesheets/modal.css" rel="stylesheet">
+
   </head>
   <body>
 
@@ -38,7 +55,97 @@
               <a class="nav-link" href="recipes.html">Recipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.php">Login</a>
+
+              <?php
+                  if (isset($_SESSION['login']))
+                  {
+                    echo '<a class="nav-link" onclick="document.getElementById(\'id01\').style.display=\'block\'" style="width:auto;" href="#">Logout</a>';
+                  }
+                  else{
+                    echo '<a class="nav-link" onclick="document.getElementById(\'id01\').style.display=\'block\'" style="width:auto;" href="#">Login</a>';
+                  }
+              ?>
+
+
+
+<!-- modal code start -->
+    <div id="id01" class="modal">
+
+  <form class="modal-content animate" action="" method="POST">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+
+      <button type="submit" value="login">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      <br>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    <?php
+
+      if(!isset($_POST['login']))
+      {
+          //check if login has been attempted
+          if(isset($_POST['username']) && isset($_POST['password']))
+          {
+            //get the username and password from user
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+
+            //connect to db and run query only AFTER user has submitted form
+            if($username && $password)
+            {
+              $db = new mysqli('localhost','root','','YUMMYTUMMY');
+
+              //check if connection is successful
+              if(mysqli_connect_errno())
+              {
+                echo 'Error connecting to database!';
+                exit;
+              }
+              else {
+
+                //run query comparison with user entered username and password
+                $query = "select * from users where userName = '$username' and password='$password'";
+                $result = $db->query($query);
+                $num_results = $result->num_rows;
+
+                if($num_results > 0)
+                {
+                  $_SESSION['login'] = true;
+
+                  $result->free();
+                  $db->close();
+
+                  echo "<script> window.location.assign('index.php'); </script>";
+                }
+                else
+                {
+                  echo 'Incorrect login, please try again.';
+                  session_destroy();
+
+                  //if login failed clear query results and close database connection
+                  $result->free();
+                  $db->close();
+                }
+              }
+          }
+        }
+      }
+    ?>
+  </form>
+</div>
+<!-- modal code end -->
             </li>
           </ul>
         </div>
@@ -126,13 +233,17 @@
 
       </div><!-- /.container -->
 
+
       <hr class="featurette-divider">
       <!-- FOOTER -->
       <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+
         <p>&copy; 2018-2020 Yummy Tummy, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
 
+    <script src="scripts/main.js"></script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
